@@ -1,1 +1,1 @@
-# rhit-watsonlm.guthub.io
+# rhit-watsonlm.github.io
