@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Lucas Watson's Portfolio</title>
         <link rel="stylesheet" href="styles/normalize.css" />
-        <link rel="stylesheet" href="styles/main.css" />
+        <link rel="stylesheet" href="styles/main.css" /> <!-- Links to the main CSS file with the red theme -->
         <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
@@ -18,42 +18,35 @@
         <nav>
             <ul>
                 <li><a href="index.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="portfolio.html" class="active">Portfolio</a></li>
                 <li><a href="resume.html">Resume</a></li>
             </ul>
         </nav>
-    <main>
-        <h1>Portfolio</h1>
-        <p>
-            These are some of my projects
-        </p>
-        <ul id="portfolioItems">
-            <li>
-                <h2><a href="https://www.youtube.com/watch?v=TCrEDrflWXs">Doodle Jump</a></h2>
-                <img src="images/doodleJump.jpg" />
-                <p>Developed a game using Python and Pygame which implemented standard
-                    physics and collision principles
-                    </p>
-            </li>
-            <li>
-                <h2><a href="#">Joust</a></h2>
-                <img src="images/joust.jpg" />
-                <p>Recreated Joust in Java using principles of object-oriented development from scratch</p>
-            </li>
-            <li>
-                <h2><a href="https://rpg-dice-roller-project.firebaseapp.com/">RPG Dice Roller</a></h2>
-                <h2><a href="https://www.youtube.com/watch?v=u4ATXYd1mOc">Video Demo Link</a></h2>
-                <img src="images/diceRollerThumbnail.PNG" />
-                <p>Using HTML, CSS, and JavaScript, created a web app for the purpose of D&D gameplay.
-                     Utilized the CRUD method for data storage.
-                      Using authentication users can make their own profile and have their data stored within the application.
-                </p>
-            </li>
-        </ul>
-    </main>
-    <footer>
-        You can email me at watsonlm@rose-hulman.edu
-    </footer>
+        <main>
+            <h1>Portfolio</h1>
+            <p>These are some of my projects:</p>
+            <ul id="portfolioItems">
+                <li>
+                    <h2><a href="https://www.youtube.com/watch?v=TCrEDrflWXs">Doodle Jump</a></h2>
+                    <img src="images/doodleJump.jpg" alt="Doodle Jump Game Thumbnail" />
+                    <p>Developed a game using Python and Pygame which implements standard physics and collision principles.</p>
+                </li>
+                <li>
+                    <h2><a href="#">Joust</a></h2>
+                    <img src="images/joust.jpg" alt="Joust Game Thumbnail" />
+                    <p>Recreated Joust in Java using principles of object-oriented development from scratch.</p>
+                </li>
+                <li>
+                    <h2><a href="https://rpg-dice-roller-project.firebaseapp.com/">RPG Dice Roller</a></h2>
+                    <h2><a href="https://www.youtube.com/watch?v=u4ATXYd1mOc">Video Demo Link</a></h2>
+                    <img src="images/diceRollerThumbnail.PNG" alt="RPG Dice Roller Thumbnail" />
+                    <p>Using HTML, CSS, and JavaScript, I created a web app for D&D gameplay. Utilized the CRUD method for data storage and authentication, allowing users to create profiles and save their data within the app.</p>
+                </li>
+            </ul>
+        </main>
+        <footer>
+            <p>You can email me at <a href="mailto:watsonlm@rose-hulman.edu">watsonlm@rose-hulman.edu</a></p>
+        </footer>
 
         <script src="scripts/main.js"></script>
     </body>

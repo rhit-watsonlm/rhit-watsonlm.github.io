@@ -1,0 +1,139 @@
+/* General body styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f1f1; /* Soft background for readability */
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background-color: #B22222; /* Rich red for the header */
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Navigation bar */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 15px 0;
+    margin: 0;
+    background-color: #8B0000; /* Darker red */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    color: #ff6347; /* Tomato color for hover effect */
+}
+
+/* Main content area */
+main {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Section headings */
+h2 {
+    color: #8B0000; /* Dark red */
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #B22222;
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-size: 1.4em;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* General paragraph and list styling */
+p, ul {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+ul {
+    margin-left: 20px;
+    padding-left: 15px;
+    list-style-type: disc;
+}
+
+/* Highlight specific sections */
+h4 {
+    color: #B22222;
+    font-size: 1.3em;
+    margin-top: 20px;
+}
+
+.contact-info {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact-info a {
+    color: #B22222;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    background-color: #B22222;
+    color: white;
+    padding: 20px 0;
+    margin-top: 40px;
+    font-size: 0.9em;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive design for mobile devices */
+@media (max-width: 768px) {
+    main {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
